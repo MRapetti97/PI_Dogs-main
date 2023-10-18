@@ -1,0 +1,86 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+#root{
+  --primary-font: 'Ubuntu';
+  --secondary-font: 'Montserrat';
+  --primary-color: #0e0f0f;
+  --secondary-color: #5c5b5e;
+  --color-dark : #4a4a49;
+  --color-gray: #979797;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul, li{
+  list-style: none;
+}
+
+h1,h2,h3,p{
+  margin: 1rem 0;
+}
+
+.container{
+  width: 90vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+input,
+select{
+    padding: 12px 10px;
+    border-radius: 5px;
+    border: 1px solid #3e08a0;
+    font-family: var(--secondary-font);
+}
+
+.btn{
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: var(--primary-font);
+  border: none;
+}
+
+.btnPrimary{
+  padding: 0.6rem 2rem;
+  background-color: var(--secondary-color);
+  color: #450998;
+  border: 1px solid var(--secondary-color);
+}
+
+.containerBackground{
+  background-color: var(--primary-color);
+  position: relative;
+}
+
+.footprints{
+  background-image: url('../src/assets/fondo-huellas.png');
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+}
+
+/*DESKTOP min-width: 992*/
+@media (min-width: 992px){
+  .containerApp{
+    padding-top: 70px;
+  }
+}
+
+/*LARGE DESKTOP min-width: 1200*/
+@media (min-width: 1200px){
+    .container{
+      width: 70vw;
+    }
+}

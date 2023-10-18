@@ -1,0 +1,20 @@
+.containerLoading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 0;
+
+}
+
+.loadingImage{
+    margin-left: -5rem;
+}
+
+.loadingText{
+    font-size: 2rem;
+    color: var(--color-dark);
+    font-family: var(--primary-font);
+    text-align: center;
+    margin-top: 1rem;
+}

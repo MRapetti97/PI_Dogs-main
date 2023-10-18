@@ -1,0 +1,43 @@
+.containerPagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 4rem 0 1rem;
+}
+
+.listPage{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.arrow{
+    font-size: 2rem;
+    background-color: initial;
+    border: none;
+    color: var(--color-dark);
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.btn{
+    color: #555;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+.page{
+    width: 34px;
+}
+
+.active,
+.btn:hover{
+    background-color: var(--color-dark);
+    color: #fff;
+}
+
+.arrow[disabled]{
+    opacity: 0.3;
+}

@@ -1,0 +1,5 @@
+/*MOBILE <768*/
+.containerSearch{
+    display: flex;
+    gap: 0.5rem;
+}

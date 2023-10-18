@@ -1,0 +1,14 @@
+.containerDogs{
+    padding: 1rem 0 4rem;
+    min-height: calc(100vh - 70px);
+}
+
+.fondoHuellas{
+    min-height: calc(100vh - 70px);
+}
+
+@media (min-width: 992px){
+    .containerDogs {
+        padding-top: 3rem;
+    }
+}
